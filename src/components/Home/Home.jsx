@@ -1,0 +1,123 @@
+import { Link } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+
+import { FaHtml5 } from "react-icons/fa6";
+const Home = () => {
+  return (
+    <div>
+      <div>
+        {/* name */}
+        <div>
+          <h1 className="text-4xl text-center mt-4 text-wrap ">
+            Hi, I am Khaled Jubair Shihab
+          </h1>
+        </div>
+        {/* border */}
+        <div className="flex justify-center">
+          <div className=" border border-gray-400 mt-2 w-1/6"></div>
+        </div>
+
+        {/* images and social media */}
+        <div className="flex justify-center iteams-center space-x-4 mt-10">
+          <div>
+            <img
+              src={"/src/assets/img/image.png "}
+              className="w-26 rounded-full  mt-2"
+              alt=""
+            />
+          </div>
+          <div className="flex flex-col justify-center iteams-center gap-3">
+            <Link to={"https://www.linkedin.com/in/khaled-jubair/"}>
+              <FaLinkedin />
+            </Link>
+            <Link to={"https://github.com/bymshihab"}>
+              <FaGithub />
+            </Link>
+            <Link to={"https://twitter.com/SHIHAB2212"}>
+              <BsTwitterX />
+            </Link>
+          </div>
+        </div>
+
+        {/* About Me */}
+        <section className="bg-gray-100 py-12 mt-10">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto text-justify">
+              <p className="text-base text-gray-700 leading-relaxed">
+                I’m particularly skilled in developing user-friendly web apps,
+                focusing on{" "}
+                <strong className="underline decoration-gray-600 hover:decoration-blue-400">
+                  JavaScript and libraries
+                </strong>{" "}
+                like React and Redux Toolkit. I prioritize responsive design
+                using Bootstrap/TailwindCSS and utilize{" "}
+                <strong className="underline decoration-gray-600 hover:decoration-blue-400">
+                  Lazy Loading
+                </strong>{" "}
+                for enhanced performance. With Git, I adeptly handle code
+                updates and guide teams toward peak performance. Additionally, I{" "}
+                <strong className="underline decoration-gray-600 hover:decoration-blue-400">
+                  {" "}
+                  excel in testing
+                </strong>{" "}
+                from the developer side using Jest, ensuring robust and reliable
+                code. My experience spans across{" "}
+                <strong className="underline decoration-gray-600 hover:decoration-blue-400">
+                  {" "}
+                  over 10 different projects
+                </strong>
+                , providing me with a diverse range of challenges and solutions
+                to draw from.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* what technologies I used:  */}
+        <section className="flex justify-center items-center py-8 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center">
+              <h2 className="text-2xl font-medium text-gray-900 mb-2">
+                Skills Overview
+              </h2>
+
+              <div className="flex justify-center">
+                <div className=" border border-gray-400  w-2/6 mb-4"></div>
+              </div>
+
+              <p className="text-lg text-gray-600 flex justify-center items-center">
+                <p className="mx-5">Languages:</p>
+                <p className="flex justify-center items-center space-x-2">
+                  <FaHtml5 /> <FaHtml5 />
+                  <FaHtml5 />
+                </p>
+              </p>
+
+              <p className="text-lg text-gray-600 flex justify-center items-center">
+                <p className="mx-5">Library:</p>
+                <p className="flex justify-center items-center space-x-2">
+                  React, Redux Bootstrap, Tailwind CSS
+                </p>
+              </p>
+
+              <p className="text-lg text-gray-600 flex justify-center items-center">
+                Languages:
+                <FaHtml5 /> <FaHtml5 />
+                <FaHtml5 />
+              </p>
+              <p className="text-lg text-gray-600 flex justify-center items-center">
+                Languages:
+                <FaHtml5 /> <FaHtml5 />
+                <FaHtml5 />
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
