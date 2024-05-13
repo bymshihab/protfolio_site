@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
-import { FaHtml5 } from "react-icons/fa6";
+// import { FaHtml5 } from "react-icons/fa6";
 const Home = () => {
   return (
     <div>
@@ -76,45 +76,63 @@ const Home = () => {
         </section>
 
         {/* what technologies I used:  */}
-        <section className="flex justify-center items-center py-8 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center">
-              <h2 className="text-2xl font-medium text-gray-900 mb-2">
-                Skills Overview
-              </h2>
+        <section className=" py-8 px-4 sm:px-6 lg:px-8 border">
+          <div className="text-center border">
+            <h2 className="text-2xl font-medium text-gray-900 mb-2">
+              Skills Overview
+            </h2>
 
-              <div className="flex justify-center">
-                <div className=" border border-gray-400  w-2/6 mb-4"></div>
-              </div>
-
-              <p className="text-lg text-gray-600 flex justify-center items-center">
-                <p className="mx-5">Languages:</p>
-                <p className="flex justify-center items-center space-x-2">
-                  <FaHtml5 /> <FaHtml5 />
-                  <FaHtml5 />
-                </p>
-              </p>
-
-              <p className="text-lg text-gray-600 flex justify-center items-center">
-                <p className="mx-5">Library:</p>
-                <p className="flex justify-center items-center space-x-2">
-                  React, Redux Bootstrap, Tailwind CSS
-                </p>
-              </p>
-
-              <p className="text-lg text-gray-600 flex justify-center items-center">
-                Languages:
-                <FaHtml5 /> <FaHtml5 />
-                <FaHtml5 />
-              </p>
-              <p className="text-lg text-gray-600 flex justify-center items-center">
-                Languages:
-                <FaHtml5 /> <FaHtml5 />
-                <FaHtml5 />
-              </p>
+            <div className="flex justify-center">
+              <div className=" border border-gray-400  w-1/12 mb-4"></div>
             </div>
           </div>
+
+          <div className="border  grid grid-cols-1 md:grid-cols-2 ">
+            <div className="border">
+              <p className="text-end mx-10">Language:</p>
+            </div>
+            <div className="border mx-6">
+              <p>HTML, CSS, JavaScript, TypeScript</p>
+            </div>
+          </div>
+          <div className="border  grid grid-cols-1 md:grid-cols-2 ">
+            <div className="border">
+              <p className="text-end mx-10">Language:</p>
+            </div>
+            <div className="border mx-6">
+              <p>HTML, CSS, JavaScript, TypeScript</p>
+            </div>
+          </div>
+          <div className="border  grid grid-cols-1 md:grid-cols-2 ">
+            <div className="border">
+              <p className="text-end mx-10">Language:</p>
+            </div>
+            <div className="border mx-6">
+              <p>HTML, CSS, JavaScript, TypeScript</p>
+            </div>
+          </div>
+         
         </section>
+
+        {/* Education */}
+        <section className=" py-8 px-4 sm:px-6 lg:px-8 border">
+          <div className="text-center border">
+            <h2 className="text-2xl font-medium text-gray-900 mb-2">
+              Education
+            </h2>
+
+            <div className="flex justify-center">
+              <div className=" border border-gray-400  w-1/12 mb-4"></div>
+            </div>
+          </div>
+
+          <div className="space-y-2 mt-2">
+            <p className="text-center text-2xl">United International University</p>
+            <p className="text-center text-sm">B.Sc in Computer Science and Engineering</p>
+          </div>
+        </section>
+
+
       </div>
     </div>
   );

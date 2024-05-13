@@ -12,7 +12,7 @@ const Root = () => {
 
     <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="flex-grow md:w-2/4 border mx-auto">
+      <div className="overflow-y-auto h-[50rem]  md:w-2/4  border mx-auto"  style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' }}>
         <Outlet />
       </div>
       <Footer />
