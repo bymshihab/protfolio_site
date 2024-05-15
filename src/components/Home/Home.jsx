@@ -14,6 +14,7 @@ const Home = () => {
             Hi, I am Khaled Jubair Shihab
           </h1>
         </div>
+
         {/* border */}
         <div className="flex justify-center">
           <div className=" border border-gray-400 mt-2 w-1/6"></div>
@@ -75,9 +76,27 @@ const Home = () => {
           </div>
         </section>
 
+        {/* Exprience */}
+        <section className=" py-8 px-4 sm:px-6 lg:px-8 border">
+          <div className="text-center ">
+            <h2 className="text-2xl font-medium text-gray-900 mb-2">
+              Exprience
+            </h2>
+
+            <div className="flex justify-center">
+              <div className=" border border-gray-400  w-1/12 mb-2"></div>
+            </div>
+          </div>
+
+          <div className="space-y-2 mt-2">
+            <p className="text-center text-2xl">Associate Software Engineer</p>
+            <p className="text-center text-sm">NDE Steel Structures Ltd.<span className="italic">(Dec, 2022 - Present)</span></p>
+          </div>
+        </section>
+
         {/* what technologies I used:  */}
         <section className=" py-8 px-4 sm:px-6 lg:px-8 border">
-          <div className="text-center border">
+          <div className="text-center ">
             <h2 className="text-2xl font-medium text-gray-900 mb-2">
               Skills Overview
             </h2>
@@ -87,42 +106,64 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="border  grid grid-cols-1 md:grid-cols-2 ">
-            <div className="border">
-              <p className="text-end mx-10">Language:</p>
+          <div className="  grid grid-cols-1 md:grid-cols-2 ">
+            <div className="">
+              <p className="text-end mx-6">Language:</p>
             </div>
-            <div className="border mx-6">
+            <div className=" mx-2">
               <p>HTML, CSS, JavaScript, TypeScript</p>
             </div>
           </div>
-          <div className="border  grid grid-cols-1 md:grid-cols-2 ">
-            <div className="border">
-              <p className="text-end mx-10">Language:</p>
+          <div className="  grid grid-cols-1 md:grid-cols-2 ">
+            <div className="">
+              <p className="text-end mx-6">Library:</p>
             </div>
-            <div className="border mx-6">
-              <p>HTML, CSS, JavaScript, TypeScript</p>
+            <div className=" mx-2">
+              <p>React, Redux Bootstrap, Tailwind CSS</p>
             </div>
           </div>
-          <div className="border  grid grid-cols-1 md:grid-cols-2 ">
-            <div className="border">
-              <p className="text-end mx-10">Language:</p>
+          <div className="  grid grid-cols-1 md:grid-cols-2 ">
+            <div className="">
+              <p className="text-end mx-6">Database:</p>
             </div>
-            <div className="border mx-6">
-              <p>HTML, CSS, JavaScript, TypeScript</p>
+            <div className=" mx-2">
+              <p>MSSQL</p>
+            </div>
+          </div>
+
+
+          <div className="  grid grid-cols-1 md:grid-cols-2 ">
+            <div className="">
+              <p className="text-end mx-6">Testing Library:</p>
+            </div>
+            <div className=" mx-2">
+              <p>Jest</p>
+            </div>
+          </div>
+
+          <div className="  grid grid-cols-1 md:grid-cols-2 ">
+            <div className="">
+              <p className="text-end mx-6">Concept:</p>
+            </div>
+            <div className=" mx-2">
+              <p>OOP, Datastructure and Algorithm</p>
             </div>
           </div>
          
         </section>
 
+
+   
+
         {/* Education */}
         <section className=" py-8 px-4 sm:px-6 lg:px-8 border">
-          <div className="text-center border">
+          <div className="text-center ">
             <h2 className="text-2xl font-medium text-gray-900 mb-2">
               Education
             </h2>
 
             <div className="flex justify-center">
-              <div className=" border border-gray-400  w-1/12 mb-4"></div>
+              <div className=" border border-gray-400  w-1/12 mb-2"></div>
             </div>
           </div>
 

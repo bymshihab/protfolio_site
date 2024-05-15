@@ -7,7 +7,7 @@ import './Header.css'
 // import { HiDownload } from "react-icons/hi";
 const Header = () => {
   return (
-    <div className="p-8  text-center">
+    <div className="p-4  text-center">
         <div className="space-x-6 nav-link">
            {/* <NavLink className={"border-b-2 border-gray-400"} to={"/"}>Home</NavLink> */}
            <NavLink to={"/"}>Home</NavLink>

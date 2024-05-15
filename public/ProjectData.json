@@ -1,0 +1,71 @@
+
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "CineStream - Movie Streaming Web app with GPT Recommendation",
+      "description": "CineStream is a web application for streaming movies. Users can browse a collection of movies, view trailers, get personalized movie suggestions, create and share movie lists, and more.",
+      "features": [
+        "Authentication: Users can sign up and log in securely using Firebase authentication.",
+        "Browse Page: Users can browse a collection of movies after authentication.",
+        "Main Movie: A featured movie is displayed prominently on the browse page.",
+        "Trailer in Background: Movie trailers play in the background for an immersive browsing experience.",
+        "Movie Suggestions: Users receive personalized movie suggestions based on their preferences.",
+        "Movie Lists: Users can create and manage custom lists of movies.",
+        "GPT Integration: Utilizes GPT for enhanced movie recommendations.",
+        "Search Bar: Users can search for specific movies.",
+        "Responsive Design: Designed with responsiveness in mind for optimal viewing on various devices."
+      ],
+      "technologies": ["React JS", "Tailwind CSS", "Redux Toolkit", "Firebase", "Jest"],
+      "github_link": "https://github.com/bymshihab/CineStream.git"
+    },
+    {
+      "id": 2,
+      "name": "Tasty Tap - Food Ordering Webapp",
+      "description": "The Food ordering System includes: user authentication, restaurant browsing, menu display, order placement, reviews, notifications, responsive design.",
+      "features": [
+        "User Authentication: Secure user authentication provided by Firebase.",
+        "Restaurant Browsing: Users can easily browse through a variety of restaurants.",
+        "Menu Display: Detailed menu display for each restaurant.",
+        "Order Placement: Users can place orders directly through the app.",
+        "Reviews: Leave reviews and ratings for restaurants.",
+        "Notifications: Receive notifications for order updates and other relevant information.",
+        "Responsive Design: Optimized for various devices for a seamless experience."
+      ],
+      "technologies": ["React JS", "Tailwind CSS", "Redux Toolkit", "Firebase", "Jest"],
+      "github_link": "https://github.com/bymshihab/Tasty-Tap.git"
+    },
+    {
+      "id": 3,
+      "name": "Permission Management",
+      "description": "Developed a Permission Management System to control user access and privileges within an application, ensuring secure and efficient management of roles and permissions.",
+      "features": [
+        "Leave Approval",
+        "Leave Application",
+        "Sales Order",
+        "Product Requisition",
+        "Product Requisition Approval"
+      ],
+      "technologies": ["HTML", "CSS", "JS", "MSSQL", "C Sharp", "Web Api using .NET core 6"]
+    },
+    {
+      "id": 4,
+      "name": "Steel Digital Market",
+      "description": "A Steel Digital Market is an online hub for trading steel, simplifying the buying and selling process with a variety of options, transparent pricing, and efficient transaction handling.",
+      "features": [
+        "Tracking system designed to monitor and manage real-time locations and statuses, enhancing operational efficiency and providing valuable insights for decision-making and process optimization."
+      ],
+      "technologies": ["HTML", "CSS", "Angular", "MSSQL", "C#", "Web Api using .NET 6"]
+    },
+    {
+      "id": 5,
+      "name": "Farm Management System",
+      "description": "A Farm Management System streamlines agricultural operations with features like animal and livestock management, and integrates financial and inventory management for optimal resource utilization.",
+      "features": [
+        "Data analytics and meteorological integration to bolster farm efficiency and decision-making processes.",
+        "Advanced tracking of feeding schedules and stock management for livestock, ensuring efficient resource use and enhanced animal health."
+      ],
+      "technologies": ["HTML", "CSS", "JS", "MSSQL", "C Sharp", "Web Api using .NET core 6"]
+    }
+  ]
+}
